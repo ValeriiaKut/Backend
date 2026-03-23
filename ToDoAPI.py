@@ -7,7 +7,7 @@ app = FastAPI()
 class Task(BaseModel):
     id: int
     title: str
-    description: str = ""
+    description: str = "-"
     done: bool = False
     created_at: datetime
 
