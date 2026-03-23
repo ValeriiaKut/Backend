@@ -2,7 +2,6 @@
 # def read_root():
 #     return {"message": "Hello World"}
 from typing import List
-from pydantic import BaseModel
 from fastapi import FastAPI
 
 app = FastAPI()
